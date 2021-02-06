@@ -34,3 +34,14 @@
 2. Operators
   
 3. Arithmetic - Số học
+
+## CSS
+
+<a href="https://specificity.keegan.st/">specificity</a>
+https://css-tricks.com/specifics-on-css-specificity/
+In otherwords:
+
+If the element has inline styling, that automatically1 wins (1,0,0,0 points)
+For each ID value, apply 0,1,0,0 points
+For each class value (or pseudo-class or attribute selector), apply 0,0,1,0 points
+For each element reference, apply 0,0,0,1 point
